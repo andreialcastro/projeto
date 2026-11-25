@@ -1,0 +1,115 @@
+/* ==========================================================
+   estilo.css – Planejamento do site da Dra. Ivonete Leal
+   Cores:  azul-petróleo #0F4C5C | verde-menta #DDF1EC
+           branco #FFFFFF | grafite #2B3A42
+           pêssego #F28F6B | azul-claro #8FC6CF
+   Fontes: Lora (títulos) | Nunito Sans (corpo)
+   ========================================================== */
+
+/* Corpo da página: fundo branco, texto grafite, fonte Nunito Sans */
+body {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  color: #2B3A42;
+  background-color: #FFFFFF;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Todos os títulos usam a fonte Lora */
+h1, h2, h3 {
+  font-family: "Lora", Georgia, serif;
+}
+
+/* Cabeçalho e rodapé: fundo azul-petróleo, texto branco */
+header, footer {
+  background-color: #0F4C5C;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Conteúdo central */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Cada seção separada por uma linha verde-menta */
+section {
+  border-bottom: 2px solid #DDF1EC;
+  padding-bottom: 20px;
+}
+
+/* Títulos das seções: azul-petróleo */
+h2, h3 {
+  color: #0F4C5C;
+}
+
+/* Destaque (domínio sugerido): fundo menta e borda pêssego */
+.destaque {
+  background-color: #DDF1EC;
+  border-left: 5px solid #F28F6B;
+  padding: 10px 15px;
+}
+
+/* Tabela de cores */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #8FC6CF;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #0F4C5C;
+  color: #FFFFFF;
+}
+
+/* Amostras das cores dentro da tabela */
+.amostra-petroleo { background-color: #0F4C5C; color: #FFFFFF; }
+.amostra-menta    { background-color: #DDF1EC; color: #2B3A42; }
+.amostra-branco   { background-color: #FFFFFF; color: #2B3A42; }
+.amostra-grafite  { background-color: #2B3A42; color: #FFFFFF; }
+.amostra-pessego  { background-color: #F28F6B; color: #2B3A42; }
+.amostra-azul     { background-color: #8FC6CF; color: #2B3A42; }
+
+/* Exemplos de tipografia */
+.exemplo-titulo {
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0F4C5C;
+}
+
+.exemplo-corpo {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 1.1rem;
+}
+
+/* Wireframes (desenho em texto) */
+pre {
+  background-color: #DDF1EC;
+  color: #2B3A42;
+  border: 1px solid #8FC6CF;
+  padding: 15px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+}
+
+/* Botão de exemplo (cor de acento) */
+.botao {
+  background-color: #F28F6B;
+  color: #2B3A42;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-weight: 700;
+}
